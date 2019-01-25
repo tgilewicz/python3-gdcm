@@ -1,10 +1,12 @@
 python3-gdcm wrapper
 
+Working example for python3.6 and Ubuntu18.04
+
 # LOCAL BUILD/INSTALL INSTRUCTION
 
 `apt-get update`
 
-`apt install -y python-vtk6 libvtk6-dev cmake-curses-gui checkinstall swig`
+`apt install -y python-vtk6 libvtk6-dev cmake-curses-gui checkinstall swig libpython3.6-dev`
 
 `mkdir gdcm && cd gdcm && git clone --branch release git://git.code.sf.net/p/gdcm/gdcm`
 
