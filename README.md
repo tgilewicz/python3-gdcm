@@ -1,5 +1,7 @@
 python3-gdcm wrapper
 
+This wrapper is not offical library from gdcm. I built the wrapper for python3.6 as the official python-gdcm works/worked only for python2.7
+
 Working example for python3.6 and Ubuntu18.04
 
 # LOCAL BUILD/INSTALL INSTRUCTION
