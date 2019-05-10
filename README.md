@@ -1,7 +1,8 @@
 
 # NEW VERSION OF GDCM and Pydicom works like charm:
 
-```conda install -c conda-forge -y gdcm
+```bash
+conda install -c conda-forge -y gdcm
 pip install --no-cache-dir git+https://github.com/pydicom/pydicom.git
 ```
 
