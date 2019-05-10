@@ -1,3 +1,11 @@
+
+# NEW VERSION OF GDCM and Pydicom works like charm:
+
+```conda install -c conda-forge -y gdcm
+pip install --no-cache-dir git+https://github.com/pydicom/pydicom.git
+```
+
+# OLD - KEEPING FOR EXAMPLE HOW TO BUILD GDCM IF SOMEBODY FINDS IT HELPFULL
 python3-gdcm wrapper
 
 I built the wrapper for python3.6 because the official python-gdcm works/worked only for python2.7 (missing library linking and built for python3.6)
