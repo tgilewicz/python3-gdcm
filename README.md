@@ -20,8 +20,8 @@ apt-get update
 apt install -y python-vtk6 libvtk6-dev cmake-curses-gui checkinstall swig libpython3.6-dev
 mkdir gdcm && cd gdcm && git clone --branch release git://git.code.sf.net/p/gdcm/gdcm
 mkdir build && cd build
-cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DGDCM_BUILD_SHARED_LIBS:BOOL=ON -DGDCM_WRAP_PYTHON=ON -DPYTHON_EXECUTABLE=/usr/local/bin/python3.6 -DPYTHON_INCLUDE_DIR=/usr/local/lib/python3.6/site-packages/ -DGDCM_BUILD_SHARED_LIBS=ON -DGDCM_USE_VTK=ON ../gdcm
-checkinstall -D -y --pkgversion --pkgname=python3-gdcm --pkgversion=1
+cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_FLAGS=-fPIC -DCMAKE_CXX_FLAGS=-fPIC -DGDCM_BUILD_SHARED_LIBS:BOOL=ON -DGDCM_WRAP_PYTHON=ON PYTHON_EXECUTABLE=/usr/local/bin/python3.6 PYTHON_INCLUDE_DIR=/usr/local/lib/python3.6/site-packages/ GDCM_BUILD_SHARED_LIBS=ON GDCM_USE_VTK=ON /gdcm/gdcm
+cmake --build . --target install
 ```
     
 ```bash
