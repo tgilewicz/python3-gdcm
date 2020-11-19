@@ -1,3 +1,5 @@
+Previously available in: https://github.com/HealthplusAI/python3-gdcm.
+
 
 # NEW VERSION OF GDCM and pydicom using conda works like charm:
 
